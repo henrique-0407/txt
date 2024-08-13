@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "mqtt": "^5.9.1"
+  },
+  "name": "olamundo",
+  "version": "1.0.0",
+  "main": "montar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type":"module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
