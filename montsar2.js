@@ -13,7 +13,7 @@ fs.appendFile('dadosMqtt.txt','ETEC TAKASHI MORITA \nCURSO: 3 MTEC AUTOMAÇÃO\n
     }
 )
 
-false.appendFile('')
+
 
 
 
