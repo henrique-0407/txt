@@ -19,7 +19,7 @@ const client = mqtt.connect(connectUrl, {
 })
 
 //inicia o login no tópico
-const topic = 'gustavo.oliveira07022000@gmail.com/T1';  
+const topic = '';  
 //função que cria um arquivo .txt, na  direita temos o nome do arquivo, e na esquuerda o que será escrito nele
 fs.appendFile('dadosmqtt.txt','ETEC TAKASHI MORITA \nCURSO: 3 MTEC AUTOMAÇÃO\nGRUPO: TARDE	TURMA:A\nDISCIPLINA: SSRI\nNOMES: Henrique Viana,Gustavo de Souza\nDADOS SOBRE A CARGA/DESCARGA DO CAPACITOR\nITEM;TEMPO; TENSÃO NO CAPACITOR \n' ,(err)=>{
   if (err) {
